@@ -380,6 +380,11 @@
   cursor: pointer;
   transition: 0.3s ease;
 }
+@media (max-width: 480px) {
+  .courses .courses-details .card {
+    width: 90%;
+  }
+}
 .courses .courses-details .card:hover {
   transform: scale(1.03);
 }
@@ -423,6 +428,12 @@
   border-radius: 0.2rem;
   margin-left: 4rem;
   color: #f7f7f7;
+}
+@media (max-width: 480px) {
+  .courses .courses-details .card .course-cost p {
+    padding: 0.3rem 0.6rem;
+    font-size: 0.8rem;
+  }
 }
 
 .reviews {
